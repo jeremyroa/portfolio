@@ -1,5 +1,4 @@
 import {
-  container,
   defaultFont,
   primaryColor,
   infoColor,
@@ -9,21 +8,20 @@ import {
   roseColor,
   transition,
   boxShadow,
-  drawerWidth
+  drawerWidth,
+  container
 } from "../../nextjs-material-kit";
 
 const headerStyle = {
   appBar: {
     display: "flex",
     border: "0",
-    borderRadius: "3px",
+    height: '40px',
     padding: "0.625rem 0",
     marginBottom: "20px",
     color: "#555",
     width: "100%",
     backgroundColor: "#fff",
-    boxShadow:
-      "0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15)",
     transition: "all 150ms ease 0s",
     alignItems: "center",
     flexFlow: "row nowrap",
@@ -40,13 +38,13 @@ const headerStyle = {
     zIndex: "1100"
   },
   container: {
-    ...container,
-    minHeight: "50px",
+    minHeight: "30px",
     flex: "1",
     alignItems: "center",
     justifyContent: "space-between",
     display: "flex",
-    flexWrap: "nowrap"
+    flexWrap: "nowrap",
+    ...container
   },
   flex: {
     flex: 1
@@ -70,9 +68,10 @@ const headerStyle = {
   },
   primary: {
     backgroundColor: primaryColor,
+    borderBottom: '3px solid #04C2C9',
     color: "#FFFFFF",
-    boxShadow:
-      "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46)"
+    // boxShadow:
+    //   "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(156, 39, 176, 0.46)"
   },
   info: {
     backgroundColor: infoColor,

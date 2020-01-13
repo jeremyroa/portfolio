@@ -1,16 +1,14 @@
 
-img {
-  max-width: 90%;
-  width: 1000px;
-  margin: 10rem auto;
-  border-radius: 20px;
-  display: block;
-  box-shadow: 0 20px 50px -25px black;
-}
-
 .viewport {
   margin: 0 0 0 0;
   width: 100vw;
   overflow-x: hidden;
   position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.App {
+  margin-top: 50px;
 }

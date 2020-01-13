@@ -39,12 +39,16 @@ const container = {
   "@media (min-width: 768px)": {
     maxWidth: "720px"
   },
-  "@media (min-width: 992px)": {
-    maxWidth: "960px"
+  "@media (min-width: 960px)": {
+    maxWidth: "940px"
   },
   "@media (min-width: 1200px)": {
     maxWidth: "1140px"
-  }
+  },
+  "@media (min-width: 1600px)": {
+    maxWidth: "1540px"
+  },
+
 };
 
 const boxShadow = {
@@ -69,7 +73,7 @@ const defaultFont = {
   lineHeight: "1.5em"
 };
 
-const primaryColor = "#9c27b0";
+const primaryColor = "#1B242F";
 const warningColor = "#ff9800";
 const dangerColor = "#f44336";
 const successColor = "#4caf50";
