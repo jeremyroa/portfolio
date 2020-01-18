@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typography } from '@material-ui/core'
-import useTitleStyle from '../../assets/jss/nextjs-material-kit/components/titleStyle'
+import useTitleStyle from '../../assets/jss/general-styles/components/titleStyle'
 
 export default function Title({title = "", color}) {
     const classes = useTitleStyle()

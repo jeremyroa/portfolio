@@ -10,7 +10,7 @@ import {
   boxShadow,
   drawerWidth,
   container
-} from "../../nextjs-material-kit";
+} from "../../general-styles";
 
 const headerStyle = {
   appBar: {

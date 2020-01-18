@@ -1,5 +1,5 @@
 import React from 'react'
-import useStyle from '../../assets/jss/nextjs-material-kit/components/hexagonStyle'
+import useStyle from '../../assets/jss/general-styles/components/hexagonStyle'
 export default function Hexagon({ children }) {
     let Children = children
     const classes = useStyle();

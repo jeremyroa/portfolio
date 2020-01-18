@@ -9,7 +9,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 
 import Button from "../CustomButtons/Button.js";
 
-import styles from "../../assets/jss/nextjs-material-kit/components/headerLinksStyle.js"
+import styles from "../../assets/jss/general-styles/components/headerLinksStyle.js"
 
 const useStyles = makeStyles(styles);
 

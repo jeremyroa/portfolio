@@ -31,8 +31,8 @@ export default makeStyles((theme) => ({
         textAlign: 'center',
         position: 'relative',
         display: 'inline-block',
-        width: '200px',
-        height: '200px',
+        width: '150px',
+        height: '150px',
         marginBottom: '10px',
         "@media (min-width: 576px)": {
             width: '150px',

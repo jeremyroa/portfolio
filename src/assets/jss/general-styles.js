@@ -4,9 +4,9 @@
  * NextJS Material Kit - v1.0.0 based on Material Kit - v2.0.2 and Material Kit React - v1.8.0
  =========================================================
 
- * Product Page: https://www.creative-tim.com/product/nextjs-material-kit
+ * Product Page: https://www.creative-tim.com/product/general-styles
  * Copyright 2019 Creative Tim (https://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/nextjs-material-kit/blob/master/LICENSE.md)
+ * Licensed under MIT (https://github.com/creativetimofficial/general-styles/blob/master/LICENSE.md)
 
  =========================================================
 

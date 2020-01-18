@@ -19,10 +19,9 @@ import Email from "@material-ui/icons/Email";
 import IconButton from "@material-ui/core/IconButton";
 
 // core components
-import CustomDropdown from "../CustomDropdown/CustomDropdown.js";
 import Button from "../CustomButtons/Button.js";
 
-import styles from "../../assets/jss/nextjs-material-kit/components/headerLinksStyle.js"
+import styles from "../../assets/jss/general-styles/components/headerLinksStyle.js"
 
 const useStyles = makeStyles(styles);
 
@@ -33,13 +32,13 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title="Sigueme en Instagram"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/roajeremy"
             target="_blank"
             className={classes.navLink}
           >
@@ -49,13 +48,13 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
+          id="twitter-tooltip"
           title="Agregame en LinkedIn"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim?ref=creativetim"
+            href="https://www.linkedin.com/in/roajeremy/"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -64,16 +63,35 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
+          id="github-tooltip"
+          title="Sigueme en GitHub"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://github.com/jeremyroa"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <Github />
+          </Button>
+        </Tooltip>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="wp-tooltip"
+          title="Escribeme por WhatsApp"
+          placement={"top"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://api.whatsapp.com/send?phone=+584122443946"
             target="_blank"
             className={classes.navLink}
           >
@@ -83,14 +101,14 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
+          id="tg-tooltip"
+          title="Escribeme por Telegram"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="https://t.me/roajeremy"
             target="_blank"
             className={classes.navLink}
           >
@@ -101,31 +119,14 @@ export default function HeaderLinks(props) {
 
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
+          id="email-tooltip"
+          title="Enviame un e-mail"
           placement={"top"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <Github />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="mailto:jmra0611@gmail.com"
             target="_blank"
             className={classes.navLink}
           >
