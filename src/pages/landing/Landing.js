@@ -6,11 +6,16 @@ import LeftLinks from '../../components/Header/LeftLinks'
 import About from '../../sections/about/About'
 import { container } from '../../assets/jss/nextjs-material-kit'
 import { makeStyles } from '@material-ui/core'
-const useStyles = makeStyles({ container: {
-    ...container,
-    paddingLeft: 0,
-    paddingRight: 0,
-} })
+import Projects from '../../sections/projects/Projects'
+import LinearBG from '../../components/LinearBG/LinearBG'
+import LinearBGFooter from '../../components/LinearBG/LinearBGFooter'
+const useStyles = makeStyles({
+    container: {
+        ...container,
+        paddingLeft: 0,
+        paddingRight: 0,
+    }
+})
 function Landing() {
     const classes = useStyles()
     return (
@@ -28,8 +33,13 @@ function Landing() {
             />
             <div className={[classes.container, 'App'].join(' ')}>
                 <About />
-
             </div>
+            <LinearBG />
+            <Projects />
+            <LinearBGFooter />
+            <footer>
+                
+            </footer>
         </SmoothScroll>
     )
 }

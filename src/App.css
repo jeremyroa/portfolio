@@ -1,8 +1,8 @@
 
 .viewport {
   margin: 0 0 0 0;
-  width: 100vw;
-  overflow-x: hidden;
+  /* width: 100vw; */
+  overflow: hidden;
   position: fixed;
   left: 0;
   right: 0;
@@ -10,5 +10,10 @@
 }
 
 .App {
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+body {
+  margin: 0;
 }
