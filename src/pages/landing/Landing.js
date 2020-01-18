@@ -11,6 +11,7 @@ import LinearBG from '../../components/LinearBG/LinearBG'
 import LinearBGFooter from '../../components/LinearBG/LinearBGFooter'
 import Title from '../../components/Title/Title'
 import Contact from '../../sections/contact/Contact'
+import Footer from '../../sections/footer/Footer'
 
 const CssTextField = withStyles((theme) => ({
     root: {
@@ -88,6 +89,7 @@ function Landing() {
             <Projects />
             <LinearBGFooter />
             <Contact />
+            <Footer />
         </SmoothScroll>
     )
 }

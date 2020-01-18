@@ -4,6 +4,7 @@ export default makeStyles((theme) => ({
     contact: {
         background: '#252934',
         paddingTop: '2rem',
+        paddingBottom: '2rem',
         "@media (min-width: 768px)": {
             paddingTop: '0',
         },

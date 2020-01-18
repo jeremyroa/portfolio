@@ -8,7 +8,7 @@ function Skill({ title = "", percent = "" }) {
     return (
         <div className={classes.containerLinear}>
             <Typography variant="subtitle1" className={`${classes.tag} ${classes.bold}`}>{title}</Typography>
-            <LinearProgress className={classes.linearProgress} variant="determinate" value={percent} />
+            <LinearProgress className={classes.linearProgress} variant="determinate" value={Number(percent)} />
             <Typography variant="subtitle1" className={`${classes.percent} ${classes.bold}`}>{`${percent}%`}</Typography>
         </div>
     )
