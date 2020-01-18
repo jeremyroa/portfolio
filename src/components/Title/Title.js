@@ -2,15 +2,15 @@ import React from 'react'
 import { Typography } from '@material-ui/core'
 import useTitleStyle from '../../assets/jss/nextjs-material-kit/components/titleStyle'
 
-export default function Title({title = ""}) {
+export default function Title({title = "", color}) {
     const classes = useTitleStyle()
     return (
         <>
         <div className={classes.flexCenter}>
-            <Typography variant="h4" component="h2" >
+            <Typography variant="h4" component="h2" style={{color: color ? color : ''}} >
                 {title}
             </Typography>
-            <div className={classes.headerBar}></div>
+            <div className={classes.headerBar} style={{background: color ? color : ''}}></div>
         </div>
         </>
     )

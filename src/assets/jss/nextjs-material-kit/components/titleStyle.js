@@ -5,7 +5,6 @@ export default makeStyles((theme) => ({
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        paddingTop:'20px'
     },
     headerBar: {
         width: '70px',

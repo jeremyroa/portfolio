@@ -59,7 +59,9 @@ export default makeStyles((theme) => ({
     },
     linearProgress: {
         flex: 10,
-        height: 'auto'
+        height: 'auto',
+        borderTopRightRadius: '10px',
+        borderBottomRightRadius: '10px',
     },
     containerLinear: {
         width: '100%',
@@ -73,6 +75,8 @@ export default makeStyles((theme) => ({
         color: "#fff",
         flex: 'auto',
         padding: '3px',
+        borderTopLeftRadius: '10px',
+        borderBottomLeftRadius: '10px',
         "@media (min-width: 576px)": {
             flex: 2.8,
         },
