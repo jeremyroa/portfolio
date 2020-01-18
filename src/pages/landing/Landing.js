@@ -5,52 +5,13 @@ import HeaderLinks from '../../components/Header/HeaderLinks'
 import LeftLinks from '../../components/Header/LeftLinks'
 import About from '../../sections/about/About'
 import { container } from '../../assets/jss/general-styles'
-import { makeStyles, Typography, TextField, fade, withStyles, Button } from '@material-ui/core'
+import { makeStyles } from '@material-ui/core'
 import Projects from '../../sections/projects/Projects'
 import LinearBG from '../../components/LinearBG/LinearBG'
 import LinearBGFooter from '../../components/LinearBG/LinearBGFooter'
-import Title from '../../components/Title/Title'
 import Contact from '../../sections/contact/Contact'
 import Footer from '../../sections/footer/Footer'
-
-const CssTextField = withStyles((theme) => ({
-    root: {
-        marginBottom: '15px',
-        width: '40%',
-        '& label.MuiFormLabel-root': {
-            color: '#fff'
-        },
-        '&:hover label.MuiFormLabel-root': {
-            color: theme.palette.primary.main + '!important'
-        },
-        '& label.Mui-focused': {
-            color: theme.palette.primary.main,
-        },
-        '& .MuiInput-underline:after': {
-            borderBottomColor: theme.palette.primary.main,
-        },
-        '& .MuiInputBase-root': {
-            color: '#fff'
-        },
-        '& .MuiOutlinedInput-input:-webkit-autofill': {
-            WebkitTransitionDelay: '999999999s',
-            transitionDelay: '999999999s',
-        },
-        '& .MuiOutlinedInput-root': {
-            '& fieldset': {
-                borderColor: '#fff',
-                color: '#fff'
-            },
-            '&:hover fieldset': {
-                borderColor: theme.palette.primary.main,
-            },
-            '&.Mui-focused fieldset': {
-                borderColor: theme.palette.primary.main,
-            },
-        },
-    },
-}))(TextField);
-
+import { Element } from 'react-scroll'
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -70,27 +31,32 @@ const useStyles = makeStyles((theme) => ({
 function Landing() {
     const classes = useStyles()
     return (
-        <SmoothScroll>
-            <Header
-                color="primary"
-                routes={[]}
-                leftLinks={<LeftLinks />}
-                rightLinks={<HeaderLinks />}
-                fixed
-                changeColorOnScroll={{
-                    height: 500,
-                    color: "white"
-                }}
-            />
-            <div className={[classes.container, 'App'].join(' ')}>
-                <About />
-            </div>
-            <LinearBG />
-            <Projects />
-            <LinearBGFooter />
-            <Contact />
-            <Footer />
-        </SmoothScroll>
+
+        <>
+            <SmoothScroll>
+                <Header
+                    color="primary"
+                    routes={[]}
+                    leftLinks={<LeftLinks />}
+                    rightLinks={<HeaderLinks />}
+                    fixed
+                />
+                <Element name="about" >
+                    <div className={[classes.container, 'App'].join(' ')}>
+                        <About />
+                    </div>
+                </Element>
+                <LinearBG />
+                <Element name="project" >
+                    <Projects />
+                </Element>
+                <Element name="contact" >
+                    <LinearBGFooter />
+                    <Contact />
+                    <Footer />
+                </Element>
+            </SmoothScroll>
+        </>
     )
 }
 

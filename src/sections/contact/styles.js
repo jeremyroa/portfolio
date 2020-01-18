@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
         paddingTop: '2rem',
         paddingBottom: '2rem',
         "@media (min-width: 768px)": {
-            paddingTop: '0',
+            paddingTop: '1rem',
         },
     },
     formContact: {

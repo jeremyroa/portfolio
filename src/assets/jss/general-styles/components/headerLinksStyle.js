@@ -13,6 +13,11 @@ const headerLinksStyle = theme => ({
     paddingBottom: "0",
     color: "inherit"
   },
+  active: {
+    '& button': {
+      color: theme.palette.primary.main + '!important'
+    }
+  },
   listItem: {
     float: "left",
     color: "inherit",
