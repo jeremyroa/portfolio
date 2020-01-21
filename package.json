@@ -10,11 +10,17 @@
     "@testing-library/user-event": "^7.1.2",
     "classnames": "^2.2.6",
     "gsap": "^3.0.4",
+    "lerp": "^1.0.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-promise-suspense": "^0.3.2",
     "react-scripts": "3.3.0",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.7.16",
+    "react-three-fiber": "^4.0.9",
+    "three": "^0.112.1",
+    "threejs-meshline": "^2.0.9",
+    "typeface-roboto": "^0.0.75"
   },
   "scripts": {
     "start": "react-scripts start",

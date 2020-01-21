@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles"
 
 export default makeStyles((theme) => ({
     hexagon: {
-        backgroundColor: '#04C2C9',
+        backgroundColor: theme.palette.third.main,
         height: '100%',
         width: 'calc(100% * 0.57735)',
         display: 'inline-block',

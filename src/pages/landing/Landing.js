@@ -12,6 +12,7 @@ import LinearBGFooter from '../../components/LinearBG/LinearBGFooter'
 import Contact from '../../sections/contact/Contact'
 import Footer from '../../sections/footer/Footer'
 import { Element } from 'react-scroll'
+import Home from '../../sections/home/Home'
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -34,12 +35,12 @@ function Landing() {
 
         <>
             <SmoothScroll>
+                <Home />
                 <Header
                     color="primary"
                     routes={[]}
                     leftLinks={<LeftLinks />}
                     rightLinks={<HeaderLinks />}
-                    fixed
                 />
                 <Element name="about" >
                     <div className={[classes.container, 'App'].join(' ')}>

@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
         background: '#1B242F', 
         display: 'flex', 
         justifyContent: 'center', 
-        borderTop: '2px solid #00A1A7', 
+        borderTop: `2px solid ${theme.palette.primary.main}`, 
         position: 'relative' 
     },
     up: {
@@ -13,7 +13,7 @@ export default makeStyles((theme) => ({
         top: '-30px'
     },
     paragraph: { 
-        color: '#fff',
+        color: theme.palette.secondary.main,
         padding: '35px 0 15px'
     }
 }))

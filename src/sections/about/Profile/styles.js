@@ -70,7 +70,7 @@ export default makeStyles((theme) => ({
         marginBottom: '15px'
     },
     tag: {
-        backgroundColor: '#04C2C9',
+        backgroundColor: theme.palette.third.main,
         textAlign: 'center',
         color: "#fff",
         flex: 'auto',
