@@ -17,7 +17,7 @@ function Star() {
                 -Math.random() * 0.5).normalize().multiplyScalar(getRandomFloat(100, 300))}
         >
             <sphereBufferGeometry attach="geometry" args={[0.5, 2, 2]} />
-            <meshBasicMaterial attach="material" ref={material} color={'0xECF0F1'} transparent opacity={0.3} t={0} />
+            <meshBasicMaterial attach="material" ref={material} color={new THREE.Color('#ECF0F1')} transparent opacity={0.3} t={0} />
         </mesh>
     )
 }

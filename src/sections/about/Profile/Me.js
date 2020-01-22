@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { CardMedia, Typography } from '@material-ui/core'
 import useStyles from './styles'
 // import imgMe from '../../../../public/me.jpeg'

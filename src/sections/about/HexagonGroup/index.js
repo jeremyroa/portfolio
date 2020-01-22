@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Hexagon from '../../../components/Hexagon/Hexagon'
 import { Grid, Typography } from '@material-ui/core'
 import Phonelink from '@material-ui/icons/Phonelink'

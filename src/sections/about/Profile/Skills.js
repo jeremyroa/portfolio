@@ -1,5 +1,4 @@
 import React from 'react'
-import { LinearProgress, Typography } from '@material-ui/core'
 import useStyles from './styles'
 import Skill from './Skill'
 

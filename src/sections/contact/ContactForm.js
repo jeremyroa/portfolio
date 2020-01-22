@@ -1,6 +1,5 @@
 import React from 'react'
-import { makeStyles, Typography, TextField, withStyles, Button } from '@material-ui/core'
-import Title from '../../components/Title/Title'
+import { TextField, withStyles, Button } from '@material-ui/core'
 import useStyles from './styles';
 
 const ContactTextField = withStyles((theme) => ({
@@ -55,15 +54,15 @@ function ContactForm() {
 
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="outlined-basic" label="Name" variant="outlined" />
+            }} id="name" label="Name" variant="outlined" />
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="outlined-basic" label="Email" variant="outlined" />
+            }} id="email" label="Email" variant="outlined" />
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="outlined-basic" multiline label="Message" variant="outlined" rows="5" />
+            }} id="message" multiline label="Message" variant="outlined" rows="5" />
             <div className={classes.containerButton}>
-                <Button variant="contained" color="primary">Send</Button>
+                <Button variant="contained" color="primary">Enviar</Button>
             </div>
         </form>
     )

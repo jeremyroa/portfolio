@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Fab, makeStyles } from '@material-ui/core'
+import { Typography, Fab } from '@material-ui/core'
 import { KeyboardArrowUp } from '@material-ui/icons'
 import useStyles from './styles'
 import { animateScroll as scroll } from 'react-scroll'
@@ -12,7 +12,7 @@ function Footer() {
                 <KeyboardArrowUp fontSize="large" />
             </Fab>
             <Typography className={classes.paragraph}>
-                © All rights are reserved | 2020 | Made with <span aria-label="heart"> 💖 </span>  by Jeremy :)
+                © All rights are reserved | 2020 | Made with <span role="img" aria-label="heart"> 💖 </span>  by Jeremy :)
             </Typography>
         </footer>
     )

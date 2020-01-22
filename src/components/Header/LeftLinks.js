@@ -22,7 +22,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="home"
-          spy={true}
           smooth={true}
           duration={500}
           offset={50}
@@ -40,7 +39,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="about"
-          spy={true}
           smooth={true}
           duration={500}
           offset={50}
@@ -58,7 +56,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="project"
-          spy={true}
           smooth={true}
           duration={500}
           offset={50}
@@ -76,7 +73,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="contact"
-          spy={true}
           smooth={true}
           duration={500}
           offset={50}

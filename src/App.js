@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
 import Landing from './pages/landing/Landing';
-import { ThemeProvider } from '@material-ui/core';
+import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import theme from './config/theme';
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Landing />
-    </ThemeProvider>
+    <>
+      <CssBaseline />
+      <ThemeProvider theme={theme}>
+        <Landing />
+      </ThemeProvider>
+    </>
   );
 }
 

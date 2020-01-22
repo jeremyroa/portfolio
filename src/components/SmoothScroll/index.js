@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { TweenLite, Power4 } from "gsap";
 
 export default class SmoothScroll extends React.Component {
@@ -46,12 +46,4 @@ export default class SmoothScroll extends React.Component {
             </>
         );
     }
-}
-const math = {
-	lerp: (a, b, n) => {
-		return (1 - n) * a + n * b
-	},
-	norm: (value, min, max) => {
-	  	return (value - min) / (max - min)
-	}
 }

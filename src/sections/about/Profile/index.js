@@ -1,12 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Grid, Typography } from '@material-ui/core'
-import useStyles from './styles'
+import { Grid  } from '@material-ui/core'
 import Me from './Me'
 import Skills from './Skills'
 
 function Profile(props) {
-    const classes = useStyles()
     return (
         <div>
             <Grid container >

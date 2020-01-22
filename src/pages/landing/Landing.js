@@ -28,25 +28,32 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         alignItems: 'center'
     },
+    home: {
+        position: 'relative',
+        zIndex: -5
+    }
 }))
 function Landing() {
     const classes = useStyles()
     return (
 
         <>
+            <Header
+                color="primary"
+                routes={[]}
+                leftLinks={<LeftLinks />}
+                rightLinks={<HeaderLinks />}
+                fixed
+            />
             <SmoothScroll>
-                <Home />
-                <Header
-                    color="primary"
-                    routes={[]}
-                    leftLinks={<LeftLinks />}
-                    rightLinks={<HeaderLinks />}
-                />
-                <Element name="about" >
-                    <div className={[classes.container, 'App'].join(' ')}>
-                        <About />
-                    </div>
+                <Element name="home" className={classes.home} >
+                    <Home />
                 </Element>
+                <div className={[classes.container, 'App'].join(' ')}>
+                    <Element name="about" >
+                        <About />
+                    </Element>
+                </div>
                 <LinearBG />
                 <Element name="project" >
                     <Projects />
