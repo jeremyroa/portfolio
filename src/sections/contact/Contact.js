@@ -4,6 +4,7 @@ import Title from '../../components/Title/Title'
 import useStyles from './styles';
 import ContactForm from './ContactForm';
 import SocialButtons from './SocialButtons';
+import Fade from 'react-reveal/Fade';
 
 
 function Contact() {
@@ -17,7 +18,9 @@ function Contact() {
             <Typography style={{ color: 'white', textAlign: 'center', marginTop: '-20px' }}>
                 Let's build something special together
                 </Typography>
-            <ContactForm />
+            <Fade big>
+                <ContactForm />
+            </Fade>
             <Typography variant="h5" className={classes.titleSocial}>
                 Visita mis redes sociales
                 </Typography>

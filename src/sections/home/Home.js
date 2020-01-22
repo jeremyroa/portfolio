@@ -7,6 +7,7 @@ import Stars from '../../components/webgl/Stars/Stars'
 import Rig from '../../components/webgl/Rig/Rig'
 import TextGroup from '../../components/webgl/Texts/TextGroup'
 import useStyles from './styles'
+import { Link } from 'react-scroll'
 
 function Home() {
     const mouse = useRef([0, 0])
@@ -25,7 +26,9 @@ function Home() {
             </Canvas>
             <div className={classes.containerButton}>
                 <div>
-                    <Button variant="outlined" color="secondary">Ver mi Trabajo</Button>
+                    <Link to="about">
+                        <Button variant="outlined" color="secondary">Ver mi Trabajo</Button>
+                    </Link>
                 </div>
             </div>
         </div>

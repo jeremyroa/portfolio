@@ -39,10 +39,14 @@ function Landing() {
 
         <>
             <Header
-                color="primary"
+                color="transparent"
                 routes={[]}
                 leftLinks={<LeftLinks />}
                 rightLinks={<HeaderLinks />}
+                changeColorOnScroll={{
+                    height: window.innerHeight - 50,
+                    color: "primary"
+                }}
                 fixed
             />
             <SmoothScroll>

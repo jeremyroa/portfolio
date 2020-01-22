@@ -44,7 +44,7 @@ export default makeStyles((theme) => ({
         pointerEvents: 'none',
         overflow: 'hidden',
         right: 0,
-        bottom: '-5px',
+        bottom: '-6px',
         left: 0,
     }
 }))
