@@ -22,6 +22,7 @@ import IconButton from "@material-ui/core/IconButton";
 import Button from "../CustomButtons/Button.js";
 
 import styles from "../../assets/jss/general-styles/components/headerLinksStyle.js"
+import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
@@ -44,6 +45,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <InstagramIcon />
+            <span className={'iconSocial'}>Instagram</span>
           </Button>
         </Tooltip>
       </ListItem>
@@ -61,6 +63,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <LinkedInIcon />
+            <span className={'iconSocial'}>LinkedIn</span>
           </Button>
         </Tooltip>
       </ListItem>
@@ -79,6 +82,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <Github />
+            <span className={'iconSocial'}>github</span>
           </Button>
         </Tooltip>
       </ListItem>
@@ -97,6 +101,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <WhatsApp />
+            <span className={'iconSocial'}>whatsapp</span>
           </Button>
         </Tooltip>
       </ListItem>
@@ -114,6 +119,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <Telegram />
+            <span className={'iconSocial'}>telegram</span>
           </Button>
         </Tooltip>
       </ListItem>
@@ -132,6 +138,7 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <Email />
+            <span className={'iconSocial'}>email</span>
           </Button>
         </Tooltip>
       </ListItem>

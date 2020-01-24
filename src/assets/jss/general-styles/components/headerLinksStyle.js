@@ -26,6 +26,9 @@ const headerLinksStyle = theme => ({
     width: "auto",
     margin: "0",
     padding: "0",
+    '& .iconSocial': {
+      display: 'inline'
+    },
     [theme.breakpoints.down("sm")]: {
       width: "100%",
       "&:after": {
@@ -36,6 +39,11 @@ const headerLinksStyle = theme => ({
         marginLeft: "15px",
         backgroundColor: "#e5e5e5"
       }
+    },
+    [theme.breakpoints.up("md")]: {
+      '& .iconSocial': {
+        display: 'none'
+      },
     }
   },
   listItemText: {
