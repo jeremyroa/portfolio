@@ -37,6 +37,7 @@ export default makeStyles((theme) => ({
         transition: 'all 1s ease-in-out',
         height: '75vmin',
         position: 'relative',
+        cursor: 'pointer',
         '& .itemHeadAccordion': {
             padding: '0.2rem',
             background: '#00a1a7c7',

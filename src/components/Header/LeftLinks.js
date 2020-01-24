@@ -22,9 +22,10 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="home"
-          smooth={true}
+          hasSpy
+          smooth
           duration={500}
-          offset={50}
+          offset={-50}
         >
           <Button
             color="transparent"
@@ -39,9 +40,10 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="about"
-          smooth={true}
+          hasSpy
+          smooth
           duration={500}
-          offset={50}
+          offset={-50}
         >
           <Button
             color="transparent"
@@ -56,9 +58,10 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="project"
-          smooth={true}
+          hasSpy
+          smooth
           duration={500}
-          offset={50}
+          offset={-50}
         >
           <Button
             color="transparent"
@@ -73,9 +76,10 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="contact"
-          smooth={true}
+          hasSpy
+          smooth
           duration={500}
-          offset={50}
+          offset={-50}
         >
           <Button
             color="transparent"

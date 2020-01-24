@@ -26,7 +26,9 @@ function Home() {
             </Canvas>
             <div className={classes.containerButton}>
                 <div>
-                    <Link to="about">
+                    <Link to="about" hashSpy smooth={true}
+                        duration={500}
+                        offset={-50}>
                         <Button variant="outlined" color="secondary">Ver mi Trabajo</Button>
                     </Link>
                 </div>
