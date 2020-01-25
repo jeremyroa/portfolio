@@ -7,15 +7,50 @@ import AutoRotatingCarouselModal from './AutoRotatingCarouselModal';
 import { useMediaQuery } from '@material-ui/core';
 const newProjects = [
     {
-        title: 'Plotting Cat',
+        title: 'DrinkPass',
+        subtitle: 'Consigue las mejores ofertas de bebidas en los mas exclusivos bares',
+        media: [
+            { alt: 'login', img: '/img/drinkpass/1.png' },
+            { alt: 'home', img: '/img/drinkpass/2.png' },
+            { alt: 'extra', img: '/img/drinkpass/3.png' },
+        ]
+    },
+    {
+        title: 'PingoPass',
+        subtitle: 'Encuentra los mejores cursos para inscribir a tus hijos',
+        media: [
+            { alt: 'login', img: '/img/pingopass/1.png' },
+            { alt: 'home', img: '/img/pingopass/2.png' },
+            { alt: 'extra', img: '/img/pingopass/3.png' },
+        ]
+    },
+    {
+        title: 'Data Recovery Lab',
         subtitle: 'Diseñados para los mejores',
-        media: [{ alt: 'cambio', img: 'https://miro.medium.com/max/3200/1*Asobnxejkl99Pde8Td1ajg.png' },
+        media: [
+            { alt: 'cambio', img: "https://cdn.dribbble.com/users/32742/screenshots/4471172/one_stock_view_dribbb.png" },
+            { alt: 'cambio', img: 'https://www.sketchappsources.com/resources/source-image/dashboard-ui-kit-vol-3-sample.png' },
+            { alt: 'cambio', img: 'https://cdn.dribbble.com/users/486635/screenshots/3477972/attachments/766225/track_car_1.png' }
+        ]
+    },
+    {
+        title: 'Gesproa Admin',
+        subtitle: 'Diseñados para los mejores',
+        media: [{ alt: 'cambio', img: 'https://www.sketchappsources.com/resources/source-image/dashboard-ui-kit-vol-3-sample.png' },
         { alt: 'cambio', img: "https://cdn.dribbble.com/users/32742/screenshots/4471172/one_stock_view_dribbb.png" },
         { alt: 'cambio', img: 'https://cdn.dribbble.com/users/486635/screenshots/3477972/attachments/766225/track_car_1.png' }
         ]
     },
     {
-        title: 'Another Cat',
+        title: 'TeurTask',
+        subtitle: 'Diseñados para los mejores',
+        media: [{ alt: 'cambio', img: 'https://www.sketchappsources.com/resources/source-image/dashboard-ui-kit-vol-3-sample.png' },
+        { alt: 'cambio', img: "https://cdn.dribbble.com/users/32742/screenshots/4471172/one_stock_view_dribbb.png" },
+        { alt: 'cambio', img: 'https://cdn.dribbble.com/users/486635/screenshots/3477972/attachments/766225/track_car_1.png' }
+        ]
+    },
+    {
+        title: 'Constructora',
         subtitle: 'Diseñados para los mejores',
         media: [{ alt: 'cambio', img: 'https://www.sketchappsources.com/resources/source-image/dashboard-ui-kit-vol-3-sample.png' },
         { alt: 'cambio', img: "https://cdn.dribbble.com/users/32742/screenshots/4471172/one_stock_view_dribbb.png" },
@@ -29,14 +64,14 @@ function Projects(props) {
     const [projects] = useState(newProjects);
     const [currentProject, setCurrentProject] = useState(0);
     const handleClick = async (current) => {
-        await setCurrentProject(current);
+        setCurrentProject(current);
         setHandleOpen({ open: true });
     };
     const matches = useMediaQuery("(max-width:768px)");
 
     return (
         <section className={classes.projects}>
-            <Title title="PROJECTS" />
+            <Title title="PROYECTOS" />
             <Accordion onClick={handleClick} projects={projects} />
             <AutoRotatingCarouselModal
                 isMobile={matches}

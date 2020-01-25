@@ -18,7 +18,7 @@ function HexagonGroup(props) {
                         <Hexagon>
                             <Phonelink />
                         </Hexagon>
-                        <Typography variant="h6" className={classes.bold} >
+                        <Typography variant="h6" component="h4" className={classes.bold} >
                             Fast
                     </Typography>
                         <Typography className={classes.paragraphIntuitive} >
@@ -30,7 +30,7 @@ function HexagonGroup(props) {
                         <Hexagon>
                             <EmojiObjectsOutlinedIcon />
                         </Hexagon>
-                        <Typography variant="h6" className={classes.bold} >
+                        <Typography variant="h6" component="h4" className={classes.bold} >
                             Fast
                     </Typography>
                         <Typography className={classes.paragraphIntuitive} >
@@ -41,7 +41,7 @@ function HexagonGroup(props) {
                         <Hexagon>
                             <SendIcon />
                         </Hexagon>
-                        <Typography variant="h6" className={classes.bold} >
+                        <Typography variant="h6" component="h4" className={classes.bold} >
                             Fast
                     </Typography>
                         <Typography className={classes.paragraphIntuitive} >
@@ -52,7 +52,7 @@ function HexagonGroup(props) {
                         <Hexagon>
                             <AccessAlarm />
                         </Hexagon>
-                        <Typography variant="h6" className={classes.bold} >
+                        <Typography variant="h6" component="h4" className={classes.bold} >
                             Fast
                     </Typography>
                         <Typography className={classes.paragraphIntuitive} >

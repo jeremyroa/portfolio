@@ -12,7 +12,7 @@ function Footer() {
                 <KeyboardArrowUp fontSize="large" />
             </Fab>
             <Typography className={classes.paragraph}>
-                © All rights are reserved | 2020 | Made with <span role="img" aria-label="heart"> 💖 </span>  by Jeremy :)
+                © Todos los derechos reservados | {new Date().getFullYear()} | Hecho con <span role="img" aria-label="heart"> 💖 </span>  por Jeremy :)
             </Typography>
         </footer>
     )

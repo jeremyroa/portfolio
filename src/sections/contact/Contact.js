@@ -12,21 +12,21 @@ function Contact() {
     return (
         <section className={classes.contact}>
             <Title
-                title="CONTACT"
+                title="CONTACTO"
                 color="#fff"
             />
-            <Typography style={{ color: 'white', textAlign: 'center', marginTop: '-20px' }}>
-                Let's build something special together
-                </Typography>
+            <Typography className={classes.special}>
+                ¡Vamos a construir algo especial juntos!
+            </Typography>
             <Fade big>
                 <ContactForm />
             </Fade>
-            <Typography variant="h5" className={classes.titleSocial}>
+            <Typography variant="h5" component="p" className={classes.titleSocial}>
                 Visita mis redes sociales
-                </Typography>
+            </Typography>
             <SocialButtons />
             <div className={classes.containerPhrase}>
-                <Typography variant="h4" className={classes.phrase}>
+                <Typography variant="h4" component="p" className={classes.phrase}>
                     “A fuerza de nadar en las grandes olas se aprende a flotar en los triunfos”.
                 </Typography>
             </div>

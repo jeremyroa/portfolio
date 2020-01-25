@@ -57,13 +57,22 @@ export default makeStyles((theme) => ({
             },
         },
         '&:hover': {
-            flexGrow: 3,
+            flexGrow: 5,
             "@media (min-width: 576px)": {
-                flexGrow: 10,
+                flexGrow: 8.5,
             },
-            '& img': {
-                filter: 'grayscale(0)',
+            "@media (min-width: 960px)": {
+                flexGrow: 9,
             },
+            "@media (min-width: 1200px)": {
+                flexGrow: 6.5,
+            },
+            "@media (min-width: 1600px)": {
+                flexGrow: 4,
+            },
+            // '& img': {
+            //     filter: 'grayscale(0)',
+            // },
             '& .itemHeadAccordion': {
                 textAlign: 'center',
                 padding: '4px 0',

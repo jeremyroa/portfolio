@@ -11,11 +11,11 @@ function Accordion({ onClick, projects }) {
         <div className={classes.accordionContainer}>
             {projects.map((p,i) =>
                 (
-                    <div key={p.title} onClick={() => onClick(i)} className={classes.itemAccordion}>
+                    <div key={p.title + i} onClick={() => onClick(i)} className={classes.itemAccordion}>
                         <img alt={p.media[0].src} src={p.media[0].img} />
                         <Typography className="itemHeadAccordion">{p.title}</Typography>
                     </div>
-                ))}
+            ))}
         </div>
 
         // </Fade>

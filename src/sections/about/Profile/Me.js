@@ -8,13 +8,10 @@ function Me(props) {
         <>
             <CardMedia image={'me.jpeg'} title="Jeremy Roa" className={classes.mediaImage} />
             <Typography variant="h5" className={classes.bold} >
-                Who's this guy?
+                ¿Quién soy?
             </Typography>
-            <Typography variant="h6" className={classes.paragraphIntuitive} >
-                I'm the Front-End Developer for EyeCue Lab in Portland, OR.
-                I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-                Let's make something special.
-                CSS
+            <Typography variant="h6" component="p" className={classes.paragraphIntuitive} >
+                Desarrollador de aplicaciones web y móviles (+1 año de experiencia) con la facilidad de crear las mejores soluciones en el menor tiempo posible, desde realizar un algoritmo que permita resolver el juego de buscaminas hasta desarrollar un sistema para el manejo de proyectos tecnológicos. Me apasionan los desafíos, el emprendimiento, la administracióñ de proyectos, las últimas tecnologías, el uso de la inteligencia artificial y las buenas prácticas. 
             </Typography>
         </>
     )

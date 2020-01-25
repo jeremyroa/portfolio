@@ -22,7 +22,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="home"
-          hasSpy
           smooth
           duration={500}
           offset={-50}
@@ -40,7 +39,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="about"
-          hasSpy
           smooth
           duration={500}
           offset={-50}
@@ -50,7 +48,7 @@ export default function LeftLinks(props) {
             className={classes.navLink}
             style={{ fontSize: '1rem' }}
           >
-            Sobre mi
+            Perfil
           </Button>
         </Link>
       </ListItem>
@@ -58,7 +56,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="project"
-          hasSpy
           smooth
           duration={500}
           offset={-50}
@@ -76,7 +73,6 @@ export default function LeftLinks(props) {
         <Link
           activeClass={classes.active}
           to="contact"
-          hasSpy
           smooth
           duration={500}
           offset={-50}

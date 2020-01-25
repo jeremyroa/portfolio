@@ -33,6 +33,7 @@ export default makeStyles((theme) => ({
     mediaImage: {
         width: '350px',
         height: '350px',
+        maxWidth: '100%',
         clipPath: 'polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)',
         webkitClipPath: 'polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)',
 
@@ -97,8 +98,12 @@ export default makeStyles((theme) => ({
         position: 'absolute',
         right: '10px',
         height: '100%',
-        display: 'flex',
+        display: 'none',
         color: '#fff',
         alignItems: 'center',
-}
+        "@media (min-width: 576px)": {
+            display: 'flex'
+        },
+    }
+
 }))

@@ -54,13 +54,13 @@ function ContactForm() {
 
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="name" label="Name" variant="outlined" />
+            }} id="name" label="Nombre" variant="outlined" />
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="email" label="Email" variant="outlined" />
+            }} id="email" label="Correo Electrónico" variant="outlined" />
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="message" multiline label="Message" variant="outlined" rows="5" />
+            }} id="message" multiline label="Mensaje" variant="outlined" rows="7" />
             <div className={classes.containerButton}>
                 <Button variant="contained" color="primary">Enviar</Button>
             </div>

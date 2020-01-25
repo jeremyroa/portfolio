@@ -14,6 +14,12 @@ export default makeStyles((theme) => ({
         flexDirection: 'column',
         alignItems: 'center'
     },
+    special: {
+        color: 'white',
+        textAlign: 'center',
+        marginTop: '-20px',
+        marginBottom: '20px'
+    },
     containerButton: {
         width: '80%',
         textAlign: 'end',
@@ -36,17 +42,17 @@ export default makeStyles((theme) => ({
         textAlign: 'center',
         fontWeight: '100'
     },
-    phrase: { 
-        color: 'rgb(79, 78, 77)', 
-        textAlign: 'center', 
-        fontStyle: 'italic', 
-        fontWeight: '100' ,
+    phrase: {
+        color: 'rgb(79, 78, 77)',
+        textAlign: 'center',
+        fontStyle: 'italic',
+        fontWeight: '100',
         fontSize: '6vmin',
         "@media (min-width: 576px)": {
             fontSize: '4vmin',
         },
     },
-    containerPhrase: { 
+    containerPhrase: {
         width: '80%%',
         "@media (min-width: 1600px)": {
             width: '55%',

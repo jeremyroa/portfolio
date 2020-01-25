@@ -7,7 +7,7 @@ import Profile from './Profile/'
 function About(props) {
     return (
         <section className="about">
-            <Title title="ABOUT" />
+            <Title title="PERFIL" />
             <HexagonGroup />
             <Profile />
         </section>

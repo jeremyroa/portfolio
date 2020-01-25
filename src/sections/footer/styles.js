@@ -14,6 +14,7 @@ export default makeStyles((theme) => ({
     },
     paragraph: { 
         color: theme.palette.secondary.main,
-        padding: '35px 0 15px'
+        padding: '35px 0 15px',
+        textAlign: 'center'
     }
 }))

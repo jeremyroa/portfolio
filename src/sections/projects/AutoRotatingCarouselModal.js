@@ -7,8 +7,8 @@ const styles = {
     root: {
         '& > .AutoRotatingCarousel-content-378': {
             "@media (min-width: 768px)": {
-                maxHeight: '700px',
-                maxWidth: '800px',
+                maxHeight: '900px',
+                maxWidth: '750px',
                 width: '70%'
             },
         }
@@ -37,6 +37,7 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile, projec
             >
                 {media.map(med => (
                     <Slide
+                        key={title + med.alt}
                         media={
                             <img alt={med.alt} style={{
                                 objectFit: 'cover',
@@ -44,7 +45,7 @@ const AutoRotatingCarouselModal = ({ handleOpen, setHandleOpen, isMobile, projec
                                 height: '100%',
                             }} src={med.img} />
                         }
-                        mediaBackgroundStyle={{ backgroundColor: theme.palette.third.main }}
+                        mediaBackgroundStyle={{ backgroundColor: theme.palette.third.main, height: 'calc(100% - 200px)' }}
                         style={{ backgroundColor: '#1B242F' }}
                         title={title}
                         subtitle={subtitle}
