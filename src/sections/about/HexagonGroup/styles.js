@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
     bold: {
-        fontWeight: '500'
+        fontWeight: 'bold'
     },
     paragraphIntuitive: {
         fontWeight: '100',

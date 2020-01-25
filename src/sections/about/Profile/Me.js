@@ -11,7 +11,7 @@ function Me(props) {
                 ¿Quién soy?
             </Typography>
             <Typography variant="h6" component="p" className={classes.paragraphIntuitive} >
-                Desarrollador de aplicaciones web y móviles (+1 año de experiencia) con la facilidad de crear las mejores soluciones en el menor tiempo posible, desde realizar un algoritmo que permita resolver el juego de buscaminas hasta desarrollar un sistema para el manejo de proyectos tecnológicos. Me apasionan los desafíos, el emprendimiento, la administracióñ de proyectos, las últimas tecnologías, el uso de la inteligencia artificial y las buenas prácticas. 
+                Desarrollador de aplicaciones web y móviles (+1 año de experiencia) con la facilidad de crear las mejores soluciones en el menor tiempo posible, desde realizar un algoritmo que permita resolver el juego de buscaminas hasta desarrollar un sistema para el manejo de proyectos tecnológicos. Me apasionan los desafíos, el emprendimiento, la administración de proyectos, las últimas tecnologías, el uso de la inteligencia artificial y las buenas prácticas. 
             </Typography>
         </>
     )

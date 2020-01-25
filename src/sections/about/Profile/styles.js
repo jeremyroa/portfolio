@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
     bold: {
-        fontWeight: '500'
+        fontWeight: 'bold'
     },
     containerSkills: {
         marginTop: '15px',
@@ -10,10 +10,11 @@ export default makeStyles((theme) => ({
     },
     paragraphIntuitive: {
         fontWeight: '100',
-        textAlign: 'center',
+        textAlign: 'justify',
         fontSize: '1.2rem',
         marginBottom: '10px',
         marginTop: '10px',
+        marginRight: '10px',
         // "@media (min-width: 576px)": {
         //     width: '150px',
         // },

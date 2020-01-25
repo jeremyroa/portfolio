@@ -19,7 +19,7 @@ function HexagonGroup(props) {
                             <Phonelink />
                         </Hexagon>
                         <Typography variant="h6" component="h4" className={classes.bold} >
-                            Fast
+                            Creativo
                     </Typography>
                         <Typography className={classes.paragraphIntuitive} >
                             Fast load times and lag free interaction, my highest priority.
@@ -31,8 +31,8 @@ function HexagonGroup(props) {
                             <EmojiObjectsOutlinedIcon />
                         </Hexagon>
                         <Typography variant="h6" component="h4" className={classes.bold} >
-                            Fast
-                    </Typography>
+                            Flexible
+                        </Typography>
                         <Typography className={classes.paragraphIntuitive} >
                             Fast load times and lag free interaction, my highest priority.
                     </Typography>
@@ -42,22 +42,22 @@ function HexagonGroup(props) {
                             <SendIcon />
                         </Hexagon>
                         <Typography variant="h6" component="h4" className={classes.bold} >
-                            Fast
-                    </Typography>
+                            Rápido
+                        </Typography>
                         <Typography className={classes.paragraphIntuitive} >
                             Fast load times and lag free interaction, my highest priority.
-                    </Typography>
+                        </Typography>
                     </Grid>
                     <Grid item container md={3} xs={12} sm={6} alignItems="center" direction="column">
                         <Hexagon>
                             <AccessAlarm />
                         </Hexagon>
                         <Typography variant="h6" component="h4" className={classes.bold} >
-                            Fast
-                    </Typography>
+                            Responsable
+                        </Typography>
                         <Typography className={classes.paragraphIntuitive} >
                             Fast load times and lag free interaction, my highest priority.
-                    </Typography>
+                        </Typography>
                     </Grid>
                 </Grid>
             </Fade>
