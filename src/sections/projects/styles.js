@@ -68,7 +68,7 @@ export default makeStyles((theme) => ({
                 flexGrow: 6.5,
             },
             "@media (min-width: 1600px)": {
-                flexGrow: 4,
+                flexGrow: 3,
             },
             // '& img': {
             //     filter: 'grayscale(0)',

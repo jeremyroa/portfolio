@@ -10,11 +10,11 @@ export default makeStyles((theme) => ({
     },
     paragraphIntuitive: {
         fontWeight: '100',
-        textAlign: 'justify',
+        textAlign: 'center',
         fontSize: '1.2rem',
         marginBottom: '10px',
         marginTop: '10px',
-        marginRight: '10px',
+        // marginRight: '10px',
         // "@media (min-width: 576px)": {
         //     width: '150px',
         // },
