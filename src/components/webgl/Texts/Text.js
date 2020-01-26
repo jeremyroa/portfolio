@@ -4,7 +4,7 @@ import { useLoader, useUpdate } from "react-three-fiber"
 import * as THREE from 'three'
 
 function Text({ children, vAlign = 'center', hAlign = 'center', size = 1, color = new THREE.Color(), ...props }) {
-    const font = useLoader(THREE.FontLoader, '/MOONGET_Heavy.blob')
+    const font = useLoader(THREE.FontLoader, 'MOONGET_Heavy.blob')
     const config = useMemo(
         () => ({ font, size: 2, height: 0 }),
         [font]
