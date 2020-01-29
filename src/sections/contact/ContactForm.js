@@ -83,7 +83,6 @@ function ContactForm() {
             })
             .catch(u => {
                 setLoading(false)
-                console.log(u);
                 alert('Error en el envio de datos')
             })
     }
@@ -93,7 +92,7 @@ function ContactForm() {
 
             <ContactTextField InputLabelProps={{
                 shrink: true
-            }} id="name" value={contact.name} required label="Nombre" type="text" variant="outlined" maxlength="40" onChange={(e) =>
+            }} id="name" value={contact.name} required label="Nombre" type="text" variant="outlined" maxLength="40" onChange={(e) =>
                 setContact({
                     ...contact,
                     name: e.target.value

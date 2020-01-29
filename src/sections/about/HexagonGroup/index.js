@@ -1,7 +1,6 @@
 import React from 'react'
 import Hexagon from '../../../components/Hexagon/Hexagon'
 import { Grid, Typography } from '@material-ui/core'
-import AccessAlarm from '@material-ui/icons/AccessAlarm'
 import EmojiObjectsOutlinedIcon from '@material-ui/icons/EmojiObjectsOutlined';
 import useStyles from './styles'
 import BorderColorIcon from '@material-ui/icons/BorderColor';

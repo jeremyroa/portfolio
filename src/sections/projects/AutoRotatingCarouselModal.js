@@ -1,5 +1,4 @@
 import React from "react";
-import { red, blue, green } from "@material-ui/core/colors";
 import { AutoRotatingCarousel, Slide } from "material-auto-rotating-carousel";
 import { useTheme, withStyles } from "@material-ui/core";
 

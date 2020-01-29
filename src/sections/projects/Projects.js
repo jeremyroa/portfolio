@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Title from '../../components/Title/Title'
 import useStyles from './styles'
 import Accordion from './Accordion'
-import Button from "@material-ui/core/Button";
 import AutoRotatingCarouselModal from './AutoRotatingCarouselModal';
 import { useMediaQuery } from '@material-ui/core';
 const newProjects = [
