@@ -60,6 +60,7 @@ function ContactForm() {
 
         if (!contact.name || !contact.email || !contact.message) {
             alert('Completa los datos')
+            return
         }
         setLoading(true)
         const options = {
