@@ -1,6 +1,5 @@
 import React from "react";
-import { gsap } from 'gsap'
-import { CSSPlugin, TweenLite, Power4 } from 'gsap/CSSPlugin'
+import { CSSPlugin, TweenLite, Power4, gsap } from 'gsap'
 
 gsap.registerPlugin(CSSPlugin)
 export default class SmoothScroll extends React.Component {
