@@ -61,7 +61,7 @@ export default makeStyles((theme) => ({
     },
     linearProgress: {
         flex: 10,
-        height: 'auto',
+        height: 'auto !important',
         borderTopRightRadius: '10px',
         borderBottomRightRadius: '10px',
     },
