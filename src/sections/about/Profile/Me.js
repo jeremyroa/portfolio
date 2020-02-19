@@ -6,7 +6,8 @@ function Me(props) {
     const classes = useStyles()
     return (
         <>
-            <CardMedia image={'me.jpeg'} title="Jeremy Roa" className={classes.mediaImage} />
+            {/* <img src="me.png" className={classes.mediaImage} alt="Jeremy Roa" /> */}
+            <CardMedia image={'me.jpg'} title="Jeremy Roa" className={classes.mediaImage} />
             <Typography variant="h5" className={classes.bold} >
                 ¿Quién soy?
             </Typography>

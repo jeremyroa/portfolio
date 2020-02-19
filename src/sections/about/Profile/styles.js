@@ -32,32 +32,11 @@ export default makeStyles((theme) => ({
         // },
     },
     mediaImage: {
-        width: '350px',
-        height: '350px',
+        width: '400px',
+        height: '400px',
         maxWidth: '100%',
         clipPath: 'polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)',
         webkitClipPath: 'polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)',
-
-        "@media (min-width: 576px)": {
-            width: '300px',
-            height: '300px',
-        },
-        "@media (min-width: 768px)": {
-            width: '300px',
-            height: '300px',
-        },
-        "@media (min-width: 960px)": {
-            width: '350px',
-            height: '350px',
-        },
-        "@media (min-width: 1200px)": {
-            width: '400px',
-            height: '400px',
-        },
-        "@media (min-width: 1600px)": {
-            width: '400px',
-            height: '400px',
-        },
     },
     linearProgress: {
         flex: 10,

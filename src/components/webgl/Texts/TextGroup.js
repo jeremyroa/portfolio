@@ -1,12 +1,12 @@
 import React, { useRef } from 'react'
 
 import Text from './Text'
-import { useThree, useFrame } from 'react-three-fiber'
+import { useThree } from 'react-three-fiber'
 
 
 function TextGroup() {
     const ref = useRef()
-    useFrame(({ clock }) => (ref.current.rotation.x = ref.current.rotation.togethery = ref.current.rotation.z = Math.sin(clock.getElapsedTime()) * 0.2))
+    // useFrame(({ clock }) => (ref.current.rotation.x = ref.current.rotation.togethery = ref.current.rotation.z = Math.sin(clock.getElapsedTime()) * 0.2))
     const { size } = useThree()
 
     const responsive = {

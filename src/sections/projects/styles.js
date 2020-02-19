@@ -89,7 +89,7 @@ export default makeStyles((theme) => ({
             transition: 'all 1s ease-in-out',
             // filter: 'grayscale(100%)',
         },
-        '&:not(:nth-child(6))': {
+        '&:not(:nth-child(5))': {
             marginRight: '1em',
         }
     },

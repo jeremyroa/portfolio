@@ -18,7 +18,7 @@ function Home() {
                 onMouseMove={e => (mouse.current = [e.clientX - window.innerWidth / 2, e.clientY - window.innerHeight / 2])}
             >
                 <Suspense fallback={<Dom center className="loading" children={<p children="Cargando componentes..." className={classes.white} />} />}>
-                    <Lines count={35} colors={['#e6e0e3']} />
+                    <Lines count={130} colors={['#e6e0e3']} />
                     <Stars count={300} />
                     <Rig mouse={mouse} />
                     <TextGroup />
