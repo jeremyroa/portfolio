@@ -22,7 +22,7 @@
     "react-scroll": "^1.7.16",
     "react-swipeable-views": "0.12.0",
     "react-three-fiber": "^4.0.9",
-    "three": "0.109.0",
+    "three": "0.125.0",
     "threejs-meshline": "^2.0.9",
     "typeface-roboto": "^0.0.75"
   },
